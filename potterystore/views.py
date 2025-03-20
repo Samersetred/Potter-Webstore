@@ -139,4 +139,3 @@ def checkout(request):
 
     context = {'items':items, 'order':order, 'cartItems':cartItems}
     return render(request, 'potterystore/checkout.html', context)
-    
